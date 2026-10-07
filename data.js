@@ -1,0 +1,35 @@
+// 战队数据，图片路径请确保和 images/ 文件夹里的文件名一致
+ConstteamsDatateamsData={"images/nrg-logo.png"
+"TYLOO"，
+，统计信息："TYLOO"ADR
+区域：“”中国"，
+图片："images/tyloo-team.jpg"，
+logo："images/tyloo-logo.png"，
+玩家：[
+{id："摩西"，角色："突破手"，统计信息：{ADR:75.2，评级：1.05，kast:72.1，hs:52.3}，纵向："images/moseyuh.png"}，
+{id："零"，角色："狙击手"，统计信息：{ADR:68.5，评分：0.98，kast:69.8，hs:48.7}，纵向："images/zero.png"}，
+{id："水银"，角色："指挥"，统计信息：{ADR:72.1，评级：1.02，kast:71.5，hs:50.1}，纵向："images/mercury.png"}，
+{id："Jee"，角色："自由人"，统计信息：{ADR:78.9，评分：1.08，kast:73.2，hs:55.6}，纵向："images/jee.png"}，
+{id："JamYoung"，角色："步枪手"，统计信息：{ADR:69.0，评分：0.95，kast:70.5，hs:59.0}，纵向："images/jamyoung.png"}
+    ]
+  },
+MIBR：{
+名称："MIBR"，
+区域：“”巴西"，
+图片："images/mibr-team.jpg"，
+logo："images/mibr-logo.png"，
+玩家：[
+{id："退出"，角色："突破手"，统计数据：{ADR:74.5，评分：1。04，卡斯特:71.2，hs:53。1}，纵向："images/exit.png"}，
+{id："安全"，角色："狙击手"，统计信息：{ADR:70.2，评级：1.01，kast:69.5，hs:47.8}，纵向："images/safee.png"}
+    ]
+  },
+NRG：{
+名称："NRG"，
+区域：“”北美"，
+图片："images/nrg-team.jpg"，
+logo："images/nrg-logo.png"，，
+玩家：[
+{id："微风"，角色："突破手"，统计信息：{ADR:73.0，评级：1.02，kast:70.8，hs:51.5}，纵向："images/brehze.png"}
+    ]
+  }
+};
