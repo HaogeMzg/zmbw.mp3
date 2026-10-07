@@ -1,0 +1,148 @@
+/* ===== 基础与变量 ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; overflow-x: hidden; background-color: #0a0e17; }
+:root {
+  --bg-dark: #0a0e17;
+  --bg-card: #141a24;
+  --bg-card-hover: #1c2533;
+  --text-main: #e8eaed;
+  --text-muted: #8b95a5;
+  --accent: #ff4655;
+  --accent-secondary: #ffb800;
+  --border-color: #2a3441;
+  --font-display: 'Impact', 'Arial Black', sans-serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+body { color: var(--text-main); font-family: var(--font-body); line-height: 1.6; }
+a { color: inherit; text-decoration: none; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; width: 100%; }
+
+/* ===== 顶部横幅 ===== */
+.hero {
+  background: linear-gradient(135deg, rgba(10,14,23,0.85), rgba(10,14,23,0.95)), 
+              url('images/hero-bg.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  text-shadow: 0 4px 20px rgba(255, 70, 85, 0.3);
+}
+.hero-subtitle {
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  color: var(--accent-secondary);
+  font-weight: 700;
+底边距：30px；
+}
+.英雄元{
+显示：柔性；
+对齐-内容：居中；
+间隙：40px；
+  color: var(--text-muted);
+font-size:1.1rem；
+柔性缠绕：缠绕；
+}
+.hero-meta i{margin-right:8px；color:var(--cent)；}
+
+/* ===== 导航栏 ===== */
+.main-nav{
+背景：rgba(20，26，36，0.95)；
+背景滤镜：模糊(10 PX)；
+  border-bottom: 1px solid var(--border-color);
+位置：粘性；
+top:0；
+Z指数：100；
+}
+.nav-links{
+显示：柔性；列表样式：无；间隙：10px；
+溢出-x：自动；填充：0；
+-webkit-溢出-滚动：触摸；
+}
+.nav-links a{
+显示：块；填充：18px24px；字体粗细：600；
+文本转换：大写；字母间距：1px；字体大小：0.9rem；
+空白：noWrap；过渡：全部0.2s；
+下边框：3px实体透明；
+}
+.nav-links a:hover{color:var(--cent-secondary)；}
+.nav-links a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/*=====战队徽标网格===*/
+.章节标题{
+font-family:var(--font-display)；font-size:2rem；
+文本转换：大写；字母间距：2px；
+下边距：30px；左边距：15px；
+左边框：5px实色var(--accent)；上边距：40px；
+}
+.team-grid{
+显示：网格；网格-模板-列：重复(自动填充，最小值(90px，1fr))；
+间隙：15px；底边距：40px；
+}
+.{
+valueVar(--bg-card)；边框：s；显示：柔度；PX固体(--边框颜色)；背景：var1PX固体var(--边框颜色)；1PX固体var(--边框颜色)；背景：var(--bg-card)；边框：1PX固体var(--边框颜色)；
+.stat-价值
+光标：指针；过渡：全部0REM；}s；显示：柔度；.3.stat-价值{font-size:1.6REM；}{font-size:111111.6REM；}
+弹性方向：柱；对齐项：中心；间隙：8px；
+}
+。团队徽标-项目：盘旋，。团队徽标-项目。活动{hover，.团队徽标-项目。活跃的{
+背景：var(--bg-卡-悬停)；边框颜色：var(--重音)；背景：var(--bg-卡-悬停)；边框颜色：var(--重音)；var(--bg-卡-悬停)；边框颜色：var(--重音)；背景：var(--bg-卡-悬停)；边框颜色：var(--重音)；
+变换：translateY(-4PX)；箱形阴影：08px20px rgba(255，70，85，0.2)；：translateY(-4PX)；箱形阴影：08px20px rgba(255，70，85，0.2)；4px)；box-shadow:08px20px rgba(255，70，85，0.2)；：translateY(-4PX)；箱形阴影：08px20px rgba(255，70，85，0.2)；
+}
+.team-logo-item img{{
+宽度：50px；高度：50px；对象适配：包含；
+滤镜：灰度(100%)亮度(1.5)；过渡：滤镜0.3s；(100%)亮度(1.5)；过渡：滤镜0.3s；100%)亮度(1.5)；过渡：滤镜0.3s；(100%)亮度(1.5)；过渡：滤镜0.3s；
+}
+.team-logo-item：悬浮IMG、.team-logo-item。活动img{滤镜：灰度(0%)亮度(1)；}{滤镜：灰度(0%)亮度(1)；}0%)亮度(1)；}{滤镜：灰度(0%)亮度(1)；}
+。团队徽标项目范围{font-size:0.75REM；字体粗细：700；颜色：var(--文本静音)；文本转换：大写；字母间距：1px；}{font-size:0.75REM；字体粗细：700；颜色：var(--文本静音)；文本转换：大写；字母间距：1px；}0.75REM；字体粗细：700；颜色：var(--文本静音)；文本转换：大写；字母间距：1px；}{font-size:0.75REM；字体粗细：700；颜色：var(--文本静音)；文本转换：大写；字母间距：1px；}
+
+/*=====战队详情区=====*/
+.team-detail-card{{
+背景：var(--bg-card)；边框：1PX固体var(--边框颜色)；背景：var(--bg-card)；边框：1PX固体var(--边框颜色)；var(--bg-card)；边框：1PX固体var(--边框颜色)；背景：var(--bg-card)；边框：1PX固体var(--边框颜色)；
+边界半径：12px；溢出：隐藏；底边距：30px；
+}
+.team-header{显示：网格；网格模板列：1fr；间距：0；}{显示：网格；网格模板列：1fr；间距：0；}
+@介质@介质(最小宽度：768px){.team-header{grid-template-columns:300px1fr；}}(最小宽度：768px){.team-header{grid-template-columns:300px1fr；}}300px1fr；}}(最小宽度：768px){.team-header{grid-template-columns:300px1fr；}}
+.team-photo{background：#0d1117；最小高度：250px；位置：相对；}{background：#0d1117；最小高度：250px；位置：相对；}
+.team-Photo img{宽度：100%；高度：100%；对象适合：封面；位置：绝对；顶部：0；左侧：0；}{宽度：100%；高度：100%；对象适合：封面；位置：绝对；顶部：0；左侧：0；}
+.team-info{padding:30PX；}{padding:30PX；}30PX；}{padding:30PX；}
+.team-info H2{font-family:var(--字体显示)；字体大小：2.5REM；文本转换：大写；字母间距：2px；页边距：10px；}{font-family:var(--字体显示)；字体大小：2.5REM；文本转换：大写；字母间距：2px；页边距：10px；}var(--字体显示)；字体大小：2.5REM；文本转换：大写；字母间距：2px；页边距：10px；}{font-family:var(--字体显示)；字体大小：2.5REM；文本转换：大写；字母间距：2px；页边距：10px；}
+。团队信息。team-region{color:var(--text-muted)；下边距：25px；font-size:1REM；}{color:var(--text-muted)；下边距：25px；font-size:1REM；}var(--text-muted)；下边距：25px；font-size:1REM；}{color:var(--text-muted)；下边距：25px；font-size:1REM；}
+.play-selector{显示：flex；flex-wrap:wrap；间隙：10px；底边距：20px；}{显示：flex；flex-wrap:wrap；间隙：10px；底边距：20px；}
+.player-btn{{
+背景：var(--bg-dark)；边框：2PX固体var(--边框颜色)；背景：var(--bg-dark)；边框：2PX固体var(--边框颜色)；var(--bg-dark)；边框：2PX固体var(--边框颜色)；背景：var(--bg-dark)；边框：2PX固体var(--边框颜色)；
+颜色：var(--text-muted)；填充：10PX20PX；边界半径：6px；颜色：var(--文本静音)；填充：10PX20PX；边界半径：6px；var(--text-muted)；填充：10PX20PX；边界半径：6px；颜色：var(--text-muted)；填充：10PX20PX；边界半径：6px；
+光标：指针；字体粗细：700；文本转换：大写；
+字母间距：1px；字体大小：0.85REM；过渡：均为0.2s；.85REM；过渡：均为0.2s；
+}
+.player-btn：悬停{边框颜色：var(--中心-次级)；颜色：var(--text-main)；}{边框颜色：var(--中心-次级)；颜色：var(--text-main)；}
+.player-btn.active{background:var(--重音)；边框颜色：var(--重音)；颜色：#FFF；}{background：var(--重音)；边框颜色：var(--重音)；颜色：#FFF；}var(--重音)；边框颜色：var(--重音)；颜色：#FFF；}{background：var(--重音)；边框颜色：var(--重音)；颜色：#FFF；}
+
+/* ===== 选手数据面板 ===== */
+.player-stats-panel{background：#0d1117；填充：30px；边框顶部：1PX固体var(--border-color)；}{background：#0d1117；填充：30px；边框顶部：1PX固体var(--边框颜色)；}30PX；边框顶部：1PX固体var(--border-color)；}{background：#0d1117；填充：30px；边框顶部：1PX固体var(--block颜色)；}
+.stats-网格{显示：网格；网格模板列：重复(自动拟合，最小值(120PX，1fr))；间隙：20px；}{显示：网格；网格模板列：重复(自动拟合，最小值(120PX，1fr))；间隙：20px；}120PX，1fr))；间隙：20px；}{显示：网格；网格模板列：重复(自动拟合，最小值(120PX，1fr))；间隙：20px；}
+.stat-item{{
+文字对齐：居中；填充：15px；background：var(--bg-card)；文本对齐：居中；填充：15px；背景：var(--bg-card)；15px；背景：var(--bg-card)；文本对齐：居中；填充：15px；background：var(--bg-card)；
+边界半径：8px；边框：1PX固体var(--边框颜色)；边框半径：8px；边框：1PX固体var(--边框颜色)；8px；边框：1PX固体var(--边框颜色)；边框半径：8px；边框：1PX固体var(--边框颜色)；
+}
+.stat-价值{font-family:var(--字体显示)；字体大小：2.2REM；颜色：var(--cent-secondary)；行高：1.2；页边距：5px；}{font-family:var(--字体显示)；字体大小：2.2REM；颜色：var(--分-二级)；行高：1.2；页边距：5px；}价值{font-family:var(--字体显示)；字体大小：2.2REM；颜色：var(--分-二级)；行高：1.2；页边距：5px；}{font-family:var(--字体显示)；字体大小：2.2REM；颜色：var(--分-二级)；行高：1.2；页边距：5px；}
+.stat-label{font-size：0.75REM；颜色：var(--text-muted)；文本转换：大写；字母间距：1px；font-weight:600；}{font-size:0.75REM；颜色：var(--文本静音)；文本转换：大写；字母间距：1px；font-weight:600；}0.75REM；颜色：var(--text-muted)；文本转换：大写；字母间距：1px；font-weight:600；}{font-size:0.75REM；颜色：var(--text-muted)；文本转换：大写；字母间距：1px；font-weight:600；}
+。播放-纵向{text-align：居中；下边距：20px；}{文本对齐：居中；下边距：20PX；}20PX；}{文本对齐：居中；下边距：20PX；}
+.play-Portrait img{宽度：100px；高度：100px；边框半径：50%；对象适合：封面；边框：3px实线var(--中心)；}{宽度：100px；高度：100px；边框半径：50%；对象适合：封面；边框：3px实线var(--中心)；}
+
+/* ===== 页脚 ===== */
+。main-footer{text-align:center；padding:40PX20PX；边框顶部：1PX实体var(--边框颜色)；颜色：var(--文本静音)；字体大小：0.85REM；}{文字对齐：居中；填充：40PX20PX；边框顶部：1PX固体var(--边框颜色)；颜色：var(--文本静音)；字体大小：0.85REM；}40PX20PX；边框顶部：1PX固体var(--边框颜色)；颜色：var(--text-muted)；字体大小：0.85REM；}{文字对齐：居中；填充：40PX20PX；边框顶部：1PX固体var(--边框颜色)；颜色：var(--文本静音)；字体大小：0.85REM；}
+
+/* ===== 响应式 ===== */
+@介质@介质（最大容忍度：768px）@介质(最大容忍度：768px){
+.英雄{padding:60px20px；}{padding:60px20px；}60px20px；}{padding：60px20px；}
+.team-info{padding：20PX；}{padding：20PX；}20PX；}{padding：20PX；}
+.team-info h2{font-size:1.8REM；}{font-size:1.8REM；}1.8REM；}{font-size:1.8REM；}
+  .player-stats-panel { padding: 20PX；}{padding：20PX；}20PX；}{padding：20PX；}
+.stat-价值{font-size:1.6rem；}价值{font-size：1.6REM；}{font-size：1.6REM；}
+}
